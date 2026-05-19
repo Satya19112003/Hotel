@@ -1,38 +1,8 @@
-# 🍽️ **Restaurant POS System**  
+# React + Vite
 
-A full-featured **Restaurant POS System** built using the **MERN Stack** to streamline restaurant operations, enhance customer experience, and manage orders, payments, and inventory with ease.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ✨ **Features**
+Currently, two official plugins are available:
 
-- 🍽️ **Order Management**  
-  Efficiently manage customer orders with real-time updates and status tracking.
-
-- 🪑 **Table Reservations**  
-  Simplify table bookings and manage reservations directly from the POS.
-
-- 🔐 **Authentication**  
-  Secure login and role-based access control for admins, staff, and users.
-
-- 💸 **Payment Integration**  
-  Integrated with **Razorpay** (or other gateways) for seamless online payments.
-
-- 🧾 **Billing & Invoicing**  
-  Automatically generate detailed bills and invoices for every order.
-
-
-## 🏗️ **Tech Stack**
-
-| **Category**             | **Technology**                |
-|--------------------------|-------------------------------|
-| 🖥️ **Frontend**          | React.js, Redux, Tailwind CSS  |
-| 🔙 **Backend**           | Node.js, Express.js           |
-| 🗄️ **Database**          | MongoDB                       |
-| 🔐 **Authentication**    | JWT, bcrypt                   |
-| 💳 **Payment Integration**| Razorpay    |
-| 📊 **State Management**   | Redux Toolkit                 |
-| ⚡ **Data Fetching & Caching** | React Query            |
-| 🔗 **APIs**              | RESTful APIs                   |
-
----
-<br>
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
